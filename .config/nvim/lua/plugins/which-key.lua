@@ -1,4 +1,4 @@
-return {
+ return {
 	{
 		"folke/which-key.nvim",
 		event = "VeryLazy",
@@ -64,7 +64,7 @@ return {
 					mode = { "n", "v" },                     -- NORMAL and VISUAL mode
 					nowait = true,
 					{ "<leader>q", "<cmd>q<cr>", desc = "Quit" }, -- no need to specify mode since it's inherited
-					{ "<leader>w", "<cmd>w<cr>", desc = "Write" },
+					{ "<leader>s", "<cmd>w<cr>", desc = "Write" },
 				}
 			})
 		end
